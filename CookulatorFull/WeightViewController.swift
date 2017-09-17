@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  WeightViewController.swift
 //  CookulatorFull
 //
 //  Created by Petra Dueck on 2017-09-16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class WeightViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
