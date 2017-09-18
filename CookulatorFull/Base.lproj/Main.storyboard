@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -328,7 +328,7 @@
                                                         <rect key="frame" x="51.5" y="0.0" width="238.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="9OX-J2-t3s"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="UNW-DE-zUZ"/>
@@ -344,7 +344,7 @@
                                                         <rect key="frame" x="51.5" y="35" width="238.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="BSB-6d-Dk7"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="qUp-FL-G8l"/>
@@ -401,7 +401,7 @@
                                                         <rect key="frame" x="173.5" y="26" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="QFa-nn-npI"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="wHB-vp-WrM"/>
@@ -417,7 +417,7 @@
                                                         <rect key="frame" x="52" y="61" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="GkB-bU-dnJ"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="tMD-eN-B48"/>
@@ -427,7 +427,7 @@
                                                         <rect key="frame" x="173.5" y="60" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="6uN-lv-jRi"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="Ben-yv-q4s"/>
@@ -443,7 +443,7 @@
                                                         <rect key="frame" x="52" y="96" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="1SU-Lo-ie7"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="Sr2-h1-xxd"/>
@@ -453,7 +453,7 @@
                                                         <rect key="frame" x="173.5" y="96" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="4Ds-fo-KLD"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="HDn-xu-XqF"/>
@@ -469,7 +469,7 @@
                                                         <rect key="frame" x="52" y="131" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="fEC-ib-NLu"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="ptA-R5-eEk"/>
@@ -479,7 +479,7 @@
                                                         <rect key="frame" x="173.5" y="131" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="VJL-bp-hvj"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="h9u-I7-mLa"/>
@@ -495,7 +495,7 @@
                                                         <rect key="frame" x="52" y="166" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="XTs-Lw-6m4"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="jhU-cb-bio"/>
@@ -505,7 +505,7 @@
                                                         <rect key="frame" x="173.5" y="166" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="zIc-rW-oBL"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="yYw-L5-fwS"/>
@@ -521,7 +521,7 @@
                                                         <rect key="frame" x="52" y="201" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="c2T-lt-mqI"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="rhq-be-ZvX"/>
@@ -531,7 +531,7 @@
                                                         <rect key="frame" x="173.5" y="202" width="116.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="dcz-dh-94H"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="Q4h-OB-KNC"/>
@@ -649,7 +649,7 @@
                                                         <rect key="frame" x="60" y="26" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="raq-sN-PSr"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="3i7-AR-0hz"/>
@@ -659,7 +659,7 @@
                                                         <rect key="frame" x="60" y="59" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="5J8-NK-3f8"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="5Ub-UD-7LO"/>
@@ -669,7 +669,7 @@
                                                         <rect key="frame" x="177.5" y="42" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="dDK-Zq-WbA"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="IJn-xL-7dp"/>
@@ -697,7 +697,7 @@
                                                         <rect key="frame" x="60" y="97" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="tCU-Cd-500"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="70v-wM-gsg"/>
@@ -707,7 +707,7 @@
                                                         <rect key="frame" x="60" y="130" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="WmH-bd-EgS"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="dzy-iv-dk2"/>
@@ -717,7 +717,7 @@
                                                         <rect key="frame" x="177.5" y="113" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="Wfh-cg-aNU"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="ejQ-iA-tY8"/>
@@ -745,7 +745,7 @@
                                                         <rect key="frame" x="60" y="168" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="S2r-CD-lip"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="t8T-Wh-HVr"/>
@@ -755,7 +755,7 @@
                                                         <rect key="frame" x="60" y="201" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="ITx-Ek-gt8"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="qwe-Xt-YiG"/>
@@ -765,7 +765,7 @@
                                                         <rect key="frame" x="177.5" y="184" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="WxS-CJ-2IG"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="tEm-qL-8NP"/>
@@ -781,7 +781,7 @@
                                                         <rect key="frame" x="30" y="239" width="142.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="Rpe-NI-j9f"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="JJ7-4O-hdI"/>
@@ -791,7 +791,7 @@
                                                         <rect key="frame" x="177.5" y="239" width="112.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="Ipg-Cd-5yX"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="GDw-MK-fTU"/>
@@ -891,31 +891,31 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Xa-pt-4Tu">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Xa-pt-4Tu">
                                                         <rect key="frame" x="113.5" y="0.0" width="176.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="G1r-O4-R95"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="pTI-1B-Eei"/>
                                                         </connections>
                                                     </textField>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yt9-9R-UnU">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yt9-9R-UnU">
                                                         <rect key="frame" x="113.5" y="35" width="176.5" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="l6l-fv-vHJ"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="Y1C-mh-K3R"/>
                                                         </connections>
                                                     </textField>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gc5-wB-2Qf">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gc5-wB-2Qf">
                                                         <rect key="frame" x="113" y="70" width="177" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="3vc-Ez-a0t"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="qH1-Rp-rof"/>
@@ -965,7 +965,7 @@
                                                         <rect key="frame" x="125" y="0.0" width="165" height="30"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                                         <connections>
                                                             <action selector="calculate:" destination="9pv-A4-QxB" eventType="editingDidEnd" id="djh-tw-ATB"/>
                                                             <outlet property="delegate" destination="9pv-A4-QxB" id="5ag-bd-OhX"/>
@@ -1109,21 +1109,21 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lba-Lz-EQO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="fda-cU-0vG"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cookulator-app-header" translatesAutoresizingMaskIntoConstraints="NO" id="idh-Tj-une">
-                                <rect key="frame" x="16.5" y="55" width="287" height="54"/>
+                                <rect key="frame" x="44" y="55" width="287" height="54"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WEIGHT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UW-I7-8KQ">
-                                <rect key="frame" x="0.0" y="124" width="320" height="25"/>
+                                <rect key="frame" x="0.0" y="124" width="375" height="25"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="oiD-FN-iOP"/>
@@ -1132,29 +1132,238 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p1i-RH-hNX">
-                                <rect key="frame" x="40" y="195" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76748972380000002" green="0.52263071900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1i-RH-hNX">
+                                <rect key="frame" x="15" y="164" width="345" height="439"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lbs" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-C9-sEV">
+                                        <rect key="frame" x="0.0" y="4.5" width="24" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FUx-y7-YZR" userLabel="lbs tf">
+                                        <rect key="frame" x="29" y="0.0" width="133" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <action selector="calculateWithSender:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="bb4-51-rI2"/>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="y81-qb-Ped"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="oz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsN-Ws-KIv">
+                                        <rect key="frame" x="5" y="44.5" width="19" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yYD-bV-XUe" userLabel="oz tf">
+                                        <rect key="frame" x="29" y="40" width="137.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <action selector="calculateWithSender:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="Mms-2n-QRV"/>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="nit-cE-S39"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haz-Ae-sLU">
+                                        <rect key="frame" x="187" y="4.5" width="20" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxA-0E-sDi" userLabel="kg tf">
+                                        <rect key="frame" x="212" y="0.0" width="133" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <action selector="calculateWithSender:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="OeB-ca-cQ2"/>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="ICv-S0-qNV"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="g" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cup-kb-hue">
+                                        <rect key="frame" x="191.5" y="44.5" width="11" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z3f-2w-1dD" userLabel="g tf">
+                                        <rect key="frame" x="207" y="40" width="137.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <action selector="calculateWithSender:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="N89-qG-S8K"/>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="adg-Um-UbV"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stones" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awg-7L-UAz">
+                                        <rect key="frame" x="62" y="84" width="54" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4zI-qW-SjZ" userLabel="stones tf">
+                                        <rect key="frame" x="121" y="80" width="137.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <action selector="calculateWithSender:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="u9D-3k-3Op"/>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="FQl-CL-tyk"/>
+                                        </connections>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2z4-UB-c9C">
+                                        <rect key="frame" x="0.0" y="130" width="345" height="5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="7ct-gk-Yzc"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-UA-EHU" userLabel="lbsoz lbs tf">
+                                        <rect key="frame" x="21" y="145" width="90.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="t4L-8U-gvr"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lbs" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nck-L2-d4n">
+                                        <rect key="frame" x="116" y="149" width="24" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xs7-mX-39I" userLabel="lbsoz oz tf">
+                                        <rect key="frame" x="165" y="145" width="90.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="9Tr-Iw-Mbd"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="oz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCg-79-Mvc">
+                                        <rect key="frame" x="261" y="149" width="19" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUS-OE-cjF">
+                                        <rect key="frame" x="295" y="143.5" width="30" height="33"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="Go">
+                                            <color key="titleColor" red="0.091312132775783539" green="0.34978857636451721" blue="0.69937962293624878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="calculateWithSender:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="eNY-u4-bLb"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XIN-rE-nmy">
+                                        <rect key="frame" x="0.0" y="185" width="345" height="5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="ecM-AU-RF7"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter an amount to convert" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8h-Sz-ZrT" userLabel="Message Label">
+                                        <rect key="frame" x="0.0" y="200" width="345" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="eMr-Ml-8Br">
+                                                <variation key="heightClass=compact" constant="25"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" red="0.75294117650000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.76748972380000002" green="0.52263071900000002" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Z3f-2w-1dD" secondAttribute="trailing" id="2XA-Lc-yTf"/>
+                                    <constraint firstItem="YUS-OE-cjF" firstAttribute="centerY" secondItem="FCg-79-Mvc" secondAttribute="centerY" id="2hA-m6-twL"/>
+                                    <constraint firstItem="yYD-bV-XUe" firstAttribute="centerY" secondItem="lsN-Ws-KIv" secondAttribute="centerY" id="7Qx-lh-gon"/>
+                                    <constraint firstItem="Z3f-2w-1dD" firstAttribute="width" secondItem="4zI-qW-SjZ" secondAttribute="width" id="7wi-Sn-nkq"/>
+                                    <constraint firstItem="yg7-C9-sEV" firstAttribute="leading" secondItem="p1i-RH-hNX" secondAttribute="leading" id="9E8-ax-yx2"/>
+                                    <constraint firstItem="Nck-L2-d4n" firstAttribute="leading" secondItem="5x6-UA-EHU" secondAttribute="trailing" constant="5" id="9W5-4c-Sv0"/>
+                                    <constraint firstItem="FCg-79-Mvc" firstAttribute="centerY" secondItem="Xs7-mX-39I" secondAttribute="centerY" id="9lh-8L-9gb"/>
+                                    <constraint firstAttribute="trailing" secondItem="2z4-UB-c9C" secondAttribute="trailing" id="Aix-JA-hjp"/>
+                                    <constraint firstItem="Z3f-2w-1dD" firstAttribute="centerY" secondItem="Cup-kb-hue" secondAttribute="centerY" id="Amb-Yq-D5N"/>
+                                    <constraint firstItem="Xs7-mX-39I" firstAttribute="width" secondItem="5x6-UA-EHU" secondAttribute="width" id="D7V-ow-nGo"/>
+                                    <constraint firstItem="DxA-0E-sDi" firstAttribute="centerY" secondItem="haz-Ae-sLU" secondAttribute="centerY" id="Dvk-mQ-9P9"/>
+                                    <constraint firstItem="Xs7-mX-39I" firstAttribute="leading" secondItem="Nck-L2-d4n" secondAttribute="trailing" constant="25" id="FZL-83-LU6"/>
+                                    <constraint firstItem="I8h-Sz-ZrT" firstAttribute="top" secondItem="XIN-rE-nmy" secondAttribute="bottom" constant="10" id="HnY-M9-dIG"/>
+                                    <constraint firstItem="FUx-y7-YZR" firstAttribute="centerY" secondItem="yg7-C9-sEV" secondAttribute="centerY" id="IPx-PH-OcO"/>
+                                    <constraint firstItem="FUx-y7-YZR" firstAttribute="leading" secondItem="yg7-C9-sEV" secondAttribute="trailing" constant="5" id="Its-P0-v6i"/>
+                                    <constraint firstItem="awg-7L-UAz" firstAttribute="leading" secondItem="p1i-RH-hNX" secondAttribute="leading" constant="62" id="JSA-4g-kMn"/>
+                                    <constraint firstAttribute="trailing" secondItem="YUS-OE-cjF" secondAttribute="trailing" constant="20" id="KJd-ev-I3k"/>
+                                    <constraint firstItem="2z4-UB-c9C" firstAttribute="top" secondItem="4zI-qW-SjZ" secondAttribute="bottom" constant="20" id="MIB-Ot-Lm1"/>
+                                    <constraint firstItem="FUx-y7-YZR" firstAttribute="top" secondItem="p1i-RH-hNX" secondAttribute="top" id="NO1-Ad-1vC"/>
+                                    <constraint firstItem="I8h-Sz-ZrT" firstAttribute="leading" secondItem="p1i-RH-hNX" secondAttribute="leading" id="R9y-WW-KLT"/>
+                                    <constraint firstItem="XIN-rE-nmy" firstAttribute="leading" secondItem="p1i-RH-hNX" secondAttribute="leading" id="Sb4-9G-9nc"/>
+                                    <constraint firstItem="lsN-Ws-KIv" firstAttribute="trailing" secondItem="yg7-C9-sEV" secondAttribute="trailing" id="Tsm-zB-8ti"/>
+                                    <constraint firstItem="4zI-qW-SjZ" firstAttribute="leading" secondItem="awg-7L-UAz" secondAttribute="trailing" constant="5" id="VNq-4L-Q6S"/>
+                                    <constraint firstItem="Nck-L2-d4n" firstAttribute="centerY" secondItem="5x6-UA-EHU" secondAttribute="centerY" id="VaO-I7-7GL"/>
+                                    <constraint firstAttribute="trailing" secondItem="DxA-0E-sDi" secondAttribute="trailing" id="W3u-q4-vdw"/>
+                                    <constraint firstItem="Cup-kb-hue" firstAttribute="centerY" secondItem="yYD-bV-XUe" secondAttribute="centerY" id="YF3-hP-hvG"/>
+                                    <constraint firstItem="XIN-rE-nmy" firstAttribute="top" secondItem="5x6-UA-EHU" secondAttribute="bottom" constant="10" id="Z4X-N8-pGG"/>
+                                    <constraint firstItem="DxA-0E-sDi" firstAttribute="leading" secondItem="haz-Ae-sLU" secondAttribute="trailing" constant="5" id="ZvX-bV-tqL"/>
+                                    <constraint firstItem="yYD-bV-XUe" firstAttribute="leading" secondItem="lsN-Ws-KIv" secondAttribute="trailing" constant="5" id="ai1-uR-yqN"/>
+                                    <constraint firstItem="4zI-qW-SjZ" firstAttribute="centerY" secondItem="awg-7L-UAz" secondAttribute="centerY" id="bQ7-4Z-fRL"/>
+                                    <constraint firstItem="FCg-79-Mvc" firstAttribute="leading" secondItem="Xs7-mX-39I" secondAttribute="trailing" constant="5" id="gJK-Hk-NPG"/>
+                                    <constraint firstItem="Cup-kb-hue" firstAttribute="leading" secondItem="yYD-bV-XUe" secondAttribute="trailing" constant="25" id="hKL-OD-azc"/>
+                                    <constraint firstItem="haz-Ae-sLU" firstAttribute="centerY" secondItem="FUx-y7-YZR" secondAttribute="centerY" id="hzf-Fc-r2U"/>
+                                    <constraint firstItem="5x6-UA-EHU" firstAttribute="top" secondItem="2z4-UB-c9C" secondAttribute="bottom" constant="10" id="jwy-qa-iXa"/>
+                                    <constraint firstItem="4zI-qW-SjZ" firstAttribute="top" secondItem="yYD-bV-XUe" secondAttribute="bottom" constant="10" id="lp3-dY-Zof"/>
+                                    <constraint firstItem="2z4-UB-c9C" firstAttribute="leading" secondItem="p1i-RH-hNX" secondAttribute="leading" id="nKU-xh-ynY"/>
+                                    <constraint firstItem="Z3f-2w-1dD" firstAttribute="width" secondItem="yYD-bV-XUe" secondAttribute="width" id="phs-6h-MeV"/>
+                                    <constraint firstItem="DxA-0E-sDi" firstAttribute="width" secondItem="FUx-y7-YZR" secondAttribute="width" id="qne-a3-iYK"/>
+                                    <constraint firstAttribute="trailing" secondItem="XIN-rE-nmy" secondAttribute="trailing" id="qww-K8-e9c"/>
+                                    <constraint firstItem="yYD-bV-XUe" firstAttribute="top" secondItem="FUx-y7-YZR" secondAttribute="bottom" constant="10" id="sPb-43-Rr5"/>
+                                    <constraint firstItem="5x6-UA-EHU" firstAttribute="leading" secondItem="p1i-RH-hNX" secondAttribute="leading" constant="21" id="wYO-Ys-BKx"/>
+                                    <constraint firstItem="Z3f-2w-1dD" firstAttribute="leading" secondItem="Cup-kb-hue" secondAttribute="trailing" constant="5" id="wl2-gU-kFi"/>
+                                    <constraint firstItem="haz-Ae-sLU" firstAttribute="leading" secondItem="FUx-y7-YZR" secondAttribute="trailing" constant="25" id="x9R-nV-zfl"/>
+                                    <constraint firstItem="Xs7-mX-39I" firstAttribute="centerY" secondItem="Nck-L2-d4n" secondAttribute="centerY" id="xMd-qw-Itg"/>
+                                    <constraint firstAttribute="trailing" secondItem="I8h-Sz-ZrT" secondAttribute="trailing" id="xqF-XY-B1P"/>
+                                    <constraint firstItem="YUS-OE-cjF" firstAttribute="leading" secondItem="FCg-79-Mvc" secondAttribute="trailing" constant="15" id="yOi-to-f8K"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.68235294120000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="idh-Tj-une" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="35" id="2d4-0h-dIb"/>
                             <constraint firstAttribute="trailing" secondItem="Lba-Lz-EQO" secondAttribute="trailing" id="Dxg-FT-4tr"/>
+                            <constraint firstAttribute="trailing" secondItem="p1i-RH-hNX" secondAttribute="trailing" constant="15" id="N29-hE-iv7"/>
                             <constraint firstItem="8UW-I7-8KQ" firstAttribute="top" secondItem="idh-Tj-une" secondAttribute="bottom" constant="15" id="RQs-n1-EAx"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="p1i-RH-hNX" secondAttribute="bottom" constant="15" id="SQ4-R8-Wbc"/>
                             <constraint firstAttribute="trailing" secondItem="8UW-I7-8KQ" secondAttribute="trailing" id="TzP-RX-LUQ"/>
                             <constraint firstItem="idh-Tj-une" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="ZsJ-rq-lC4"/>
                             <constraint firstItem="8UW-I7-8KQ" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="k1x-0p-9ed"/>
                             <constraint firstItem="Lba-Lz-EQO" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="kP5-ux-T9a"/>
+                            <constraint firstItem="p1i-RH-hNX" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="15" id="khr-Ku-Rgq"/>
+                            <constraint firstItem="p1i-RH-hNX" firstAttribute="top" secondItem="8UW-I7-8KQ" secondAttribute="bottom" constant="15" id="p34-h3-qm6"/>
                             <constraint firstItem="Lba-Lz-EQO" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-20" id="w9t-dE-wKf"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Weight" image="scalesIcon" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="gTextField" destination="Z3f-2w-1dD" id="WrF-43-O3i"/>
+                        <outlet property="kgTextField" destination="DxA-0E-sDi" id="cne-Kr-Qnz"/>
+                        <outlet property="lbOzButton" destination="YUS-OE-cjF" id="uyy-PP-zaX"/>
+                        <outlet property="lbOzTextField_lb" destination="5x6-UA-EHU" id="P3g-BS-C6E"/>
+                        <outlet property="lbOzTextField_oz" destination="Xs7-mX-39I" id="CWm-bL-eqD"/>
+                        <outlet property="lbTextField" destination="FUx-y7-YZR" id="leM-0f-0Xb"/>
+                        <outlet property="messageLabel" destination="I8h-Sz-ZrT" id="oBh-cQ-R2S"/>
+                        <outlet property="ozTextField" destination="yYD-bV-XUe" id="laz-NR-87Y"/>
+                        <outlet property="stTextField" destination="4zI-qW-SjZ" id="Qq1-ie-Wo4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="671" y="-104"/>
+            <point key="canvasLocation" x="669.375" y="-104.5774647887324"/>
         </scene>
         <!--Temperature-->
         <scene sceneID="rWj-i2-r8i">
@@ -1165,21 +1374,21 @@
                         <viewControllerLayoutGuide type="bottom" id="tSp-AS-uTT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sPA-8p-OqA">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVv-GP-1rB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="60J-SM-7uO"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cookulator-app-header" translatesAutoresizingMaskIntoConstraints="NO" id="LtP-gy-TmC">
-                                <rect key="frame" x="16.5" y="55" width="287" height="54"/>
+                                <rect key="frame" x="44" y="55" width="287" height="54"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEMPERATURE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BH-Er-acK">
-                                <rect key="frame" x="0.0" y="124" width="320" height="25"/>
+                                <rect key="frame" x="0.0" y="124" width="375" height="25"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="NFw-rJ-rCU"/>
