@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WeightViewController: UIViewController {
+class WeightViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var lbTextField: UITextField!
     @IBOutlet weak var ozTextField: UITextField!
@@ -46,6 +46,9 @@ class WeightViewController: UIViewController {
                 print("input was not converted to g")
             }
             
+            // dismiss keyboard
+            senderTextField.resignFirstResponder()
+            
         } else if sender is UIButton {
             
             // get button
@@ -70,6 +73,7 @@ class WeightViewController: UIViewController {
             
         } else {
             print("Sender is not a text field or button")
+            
         }
         
         // Google Analytics Code - send calculate event

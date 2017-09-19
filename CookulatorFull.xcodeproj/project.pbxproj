@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B4C02A31F706EAD008C35A7 /* WeightConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C02A21F706EAD008C35A7 /* WeightConverter.swift */; };
+		4B4C02A51F7084B3008C35A7 /* TempConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C02A41F7084B3008C35A7 /* TempConverter.swift */; };
 		4B7C43F21F6DB40500D222A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C43F11F6DB40500D222A6 /* AppDelegate.swift */; };
 		4B7C43F41F6DB40500D222A6 /* VolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C43F31F6DB40500D222A6 /* VolumeViewController.swift */; };
 		4B7C43F61F6DB40500D222A6 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C43F51F6DB40500D222A6 /* WeightViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		4B4C02A21F706EAD008C35A7 /* WeightConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightConverter.swift; sourceTree = "<group>"; };
+		4B4C02A41F7084B3008C35A7 /* TempConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempConverter.swift; sourceTree = "<group>"; };
 		4B7C43EE1F6DB40500D222A6 /* CookulatorFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookulatorFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7C43F11F6DB40500D222A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B7C43F31F6DB40500D222A6 /* VolumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				4B7C5B781F6F1E0B0031196B /* VolumeConverter.swift */,
 				4B4C02A21F706EAD008C35A7 /* WeightConverter.swift */,
+				4B4C02A41F7084B3008C35A7 /* TempConverter.swift */,
 			);
 			name = "Converter Structs";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				4B4C02A31F706EAD008C35A7 /* WeightConverter.swift in Sources */,
 				4B7C43F61F6DB40500D222A6 /* WeightViewController.swift in Sources */,
 				4B7C43F21F6DB40500D222A6 /* AppDelegate.swift in Sources */,
+				4B4C02A51F7084B3008C35A7 /* TempConverter.swift in Sources */,
 				4B7C43F41F6DB40500D222A6 /* VolumeViewController.swift in Sources */,
 				4B7C5B791F6F1E0B0031196B /* VolumeConverter.swift in Sources */,
 				4B7C5B771F6ED8E20031196B /* InfoViewController.swift in Sources */,
