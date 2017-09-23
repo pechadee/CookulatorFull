@@ -169,11 +169,11 @@ class VolumeConverter {
         return ml
     }
     static func ukDspToMl(_ amt : Float) -> Float {
-        let ml : Float = amt * UkDramInMl
+        let ml : Float = amt * UkDspInMl
         return ml
     }
     static func ukDramToMl(_ amt : Float) -> Float {
-        let ml : Float = amt * UkDspInMl
+        let ml : Float = amt * UkDramInMl
         return ml
     }
     static func ukPinchToMl(_ amt : Float) -> Float {
