@@ -18,7 +18,7 @@ class InfoViewController: UIViewController {
         if UIApplication.shared.canOpenURL(cookulatorUrl) {
             // added if statement for backward compatibility
             if #available(iOS 10.0, *) {
-                UIApplication.shared.open(cookulatorUrl, options: [:], completionHandler: nil)
+                UIApplication.shared.open(cookulatorUrl, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             } else {
                 // Fallback on earlier versions
                 UIApplication.shared.openURL(cookulatorUrl)
@@ -43,4 +43,9 @@ class InfoViewController: UIViewController {
     }
     
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }
